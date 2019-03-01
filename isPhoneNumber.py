@@ -1,4 +1,4 @@
-#first project to show phone number search (oh baby)
+#first project to show phone number search 
 def isPhoneNumber(text):
     if len(text) != 12:
         return False
