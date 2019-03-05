@@ -47,7 +47,7 @@ def dans(txt):
 print('pro was found in this page ' + str(dans(soup.get_text()))+' times !!')
 
 print(soup.get_text().count("pro"))
-#using the stupid regex from noah
+#using the regex
 print(len([m.start() for m in re.finditer('pro', soup.get_text())]))
 #using froffmans solution
 print(soup.get_text().lower().count('pro'))
